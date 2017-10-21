@@ -10,7 +10,7 @@ router.get('/signIn', function(req, res, next) {
 router.post('/submission', function(req, res, next) {
     console.log("worked");
     console.log(req.body.email);
-    res.render('options', { title: 'Express' });
+    res.render('menu', { title: 'Express' });
 });
 
 

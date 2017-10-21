@@ -11,7 +11,7 @@ var users = require('./routes/users');
 var tickets = require('./routes/tickets');
 var signUp = require('./routes/signUp');
 var logIn = require('./routes/logIn');
-
+var options = require('./routes/options');
 
 var app = express();
 
@@ -33,6 +33,7 @@ app.use('/users', users);
 app.use('/tickets',tickets);
 app.use('/signUp',signUp);
 app.use('/logIn', logIn);
+app.use('/options', options);
 
 
 
