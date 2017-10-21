@@ -14,6 +14,37 @@ var signUp = require('./routes/signUp');
 
 var app = express();
 
+// Mongoose setup
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/TempDatabase');
+var db = mongoose.connection;
+
+// Get the user schema
+let User = require('./models/user');
+
+db.once('openUri', function() {
+  console.log('Connected to MongoDB');
+})
+
+db.on('error', function(err) {
+  console.log("Errors: ");
+  console.log(err);
+});
+
+// End Mongoose setup
+
+// Test directory
+app.get('/users', function(req, res) {
+  User.find({}, function(err, users) {
+    if (err) {
+      console.log("Database error");
+      console.log(err);
+    } else {
+      res.send(JSON.stringify(users));
+    }
+  });
+});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
