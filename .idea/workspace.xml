@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17a2de0e-57fa-47d1-a1e1-f9fe3eb2c1aa" name="Default" comment="basic sign up page layout">
+    <list default="true" id="17a2de0e-57fa-47d1-a1e1-f9fe3eb2c1aa" name="Default" comment="basic login page layout">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/logIn.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/signUp.ejs" afterPath="$PROJECT_DIR$/views/signUp.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="signUp.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/signUp.ejs">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="243">
+              <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -42,8 +43,9 @@
       <list>
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/signUp.ejs" />
+        <option value="$PROJECT_DIR$/views/logIn.ejs" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -56,7 +58,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="4" />
     <option name="y" value="12" />
     <option name="width" value="641" />
@@ -173,7 +175,7 @@
       <workItem from="1508559312221" duration="15000" />
       <workItem from="1508559395055" duration="83000" />
       <workItem from="1508559807684" duration="1727000" />
-      <workItem from="1508563582322" duration="3926000" />
+      <workItem from="1508563582322" duration="4358000" />
     </task>
     <task id="LOCAL-00001" summary="sign up page started, needs linked to home page">
       <created>1508564370642</created>
@@ -189,19 +191,26 @@
       <option name="project" value="LOCAL" />
       <updated>1508566752570</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="basic sign up page layout">
+      <created>1508567512081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1508567512081</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7628000" />
+    <option name="totallyTimeSpent" value="8060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="12" width="641" height="888" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="884" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4021739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40208334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958803" sideWeight="0.49722221" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33124214" sideWeight="0.49722221" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258427" sideWeight="0.5050125" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769832" sideWeight="0.49498746" order="4" side_tool="false" content_ui="tabs" />
@@ -247,7 +256,8 @@
     <MESSAGE value="sign up page started" />
     <MESSAGE value="sign up page started, needs linked to home page" />
     <MESSAGE value="basic sign up page layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic sign up page layout" />
+    <MESSAGE value="basic login page layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic login page layout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -277,11 +287,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <marker date="1508566302135" expanded="true" signature="478:595" ph="//..." />
-            <marker date="1508566302135" expanded="true" signature="936:1008" ph="{...}" />
-            <marker date="1508566302135" expanded="true" signature="1067:1313" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -297,7 +303,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1508567507115" expanded="true" signature="21:2218" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="28:356" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="363:2210" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="397:2202" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="426:578" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="607:760" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="789:952" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="981:1152" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="1181:1353" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="1382:1553" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="1582:1754" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="1783:1954" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="1983:2128" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,14 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/error.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -438,22 +450,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/views/signUp.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
-            <marker date="1508566302135" expanded="true" signature="478:595" ph="//..." />
-            <marker date="1508566302135" expanded="true" signature="936:1008" ph="{...}" />
-            <marker date="1508566302135" expanded="true" signature="1067:1313" ph="{...}" />
+            <marker date="1508567507115" expanded="true" signature="21:2218" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="28:356" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="363:2210" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="397:2202" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="426:578" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="607:760" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="789:952" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="981:1152" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="1181:1353" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="1382:1553" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="1582:1754" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="1783:1954" ph="..." />
+            <marker date="1508567507115" expanded="true" signature="1983:2128" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/signUp.ejs">
+    <entry file="file://$PROJECT_DIR$/views/error.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/logIn.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <marker date="1508567879341" expanded="true" signature="21:838" ph="..." />
+            <marker date="1508567879341" expanded="true" signature="28:356" ph="..." />
+            <marker date="1508567879341" expanded="true" signature="363:830" ph="..." />
+            <marker date="1508567879341" expanded="true" signature="385:822" ph="..." />
+            <marker date="1508567879341" expanded="true" signature="414:566" ph="..." />
+            <marker date="1508567879341" expanded="true" signature="595:748" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding />
         </state>
       </provider>
