@@ -25,3 +25,8 @@ h1
 a {
   color: #00B7FF;
 }
+
+.form-group {
+  margin-left: 5px;
+  margin-right: 20px;
+}

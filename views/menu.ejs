@@ -5,37 +5,629 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 <body>
+<div class="container-fluid">
+<form>
+    <div class="row">
+        <div class="form-group col-sm-12">
+            <label for="budget">Budget for all trips (In US dollars)</label>
+            <input type="number" class="form-control" id="budget" placeholder="Budget">
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-sm-6">
+            <label for="destinationIn">Destination 1</label>
+            <select class="form-control" id="dest1">
+                <option>Atlanta</option>
+                <option>Anchorage</option>
+                <option>Austin</option>
+                <option>Baltimore</option>
+                <option>Boston</option>
+                <option>Calgary</option>
+                <option>Charlotte</option>
+                <option>Chicago</option>
+                <option>Cincinnati</option>
+                <option>Cleveland</option>
+                <option>Columbus</option>
+                <option>Dallas</option>
+                <option>Denver</option>
+                <option>Detroit</option>
+                <option>Fort Lauderdale</option>
+                <option>Fort Myers</option>
+                <option>Hartford</option>
+                <option>Indianapolis</option>
+                <option>Kansas City</option>
+                <option>Los Vegas</option>
+                <option>Los Angeles</option>
+                <option>Memphis</option>
+                <option>Miami</option>
+                <option>Minneapolis</option>
+                <option>Montréal</option>
+                <option>Nashville</option>
+                <option>New Orleans</option>
+                <option>New York City</option>
+                <option>Newark</option>
+                <option>Oakland</option>
+                <option>Ontario</option>
+                <option>Orlando</option>
+                <option>Ottawa</option>
+                <option>Philadelphia</option>
+                <option>Phoenix</option>
+                <option>Pittsburgh</option>
+                <option>Portland</option>
+                <option>Québec</option>
+                <option>Raleigh-Durham</option>
+                <option>Sacramento</option>
+                <option>Salt Lake City</option>
+                <option>San Antonio</option>
+                <option>San Diego</option>
+                <option>San Francisco</option>
+                <option>San Jose</option>
+                <option>Santa Ana</option>
+                <option>Seattle</option>
+                <option>St. Louis</option>
+                <option>Tampa</option>
+                <option>Toronto</option>
+                <option>Vancouver</option>
+                <option>Washington D.C.</option>
+            </select>
+        </div>
+        <div class="form-group col-sm-6">
+            <label for="returnIn">Return 1</label>
+            <select class="form-control" id="ret1">
+                <option>Atlanta</option>
+                <option>Anchorage</option>
+                <option>Austin</option>
+                <option>Baltimore</option>
+                <option>Boston</option>
+                <option>Calgary</option>
+                <option>Charlotte</option>
+                <option>Chicago</option>
+                <option>Cincinnati</option>
+                <option>Cleveland</option>
+                <option>Columbus</option>
+                <option>Dallas</option>
+                <option>Denver</option>
+                <option>Detroit</option>
+                <option>Fort Lauderdale</option>
+                <option>Fort Myers</option>
+                <option>Hartford</option>
+                <option>Indianapolis</option>
+                <option>Kansas City</option>
+                <option>Los Vegas</option>
+                <option>Los Angeles</option>
+                <option>Memphis</option>
+                <option>Miami</option>
+                <option>Minneapolis</option>
+                <option>Montréal</option>
+                <option>Nashville</option>
+                <option>New Orleans</option>
+                <option>New York City</option>
+                <option>Newark</option>
+                <option>Oakland</option>
+                <option>Ontario</option>
+                <option>Orlando</option>
+                <option>Ottawa</option>
+                <option>Philadelphia</option>
+                <option>Phoenix</option>
+                <option>Pittsburgh</option>
+                <option>Portland</option>
+                <option>Québec</option>
+                <option>Raleigh-Durham</option>
+                <option>Sacramento</option>
+                <option>Salt Lake City</option>
+                <option>San Antonio</option>
+                <option>San Diego</option>
+                <option>San Francisco</option>
+                <option>San Jose</option>
+                <option>Santa Ana</option>
+                <option>Seattle</option>
+                <option>St. Louis</option>
+                <option>Tampa</option>
+                <option>Toronto</option>
+                <option>Vancouver</option>
+                <option>Washington D.C.</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-sm-6">
+            <label for="destinationIn">Destination 2</label>
+            <select class="form-control" id="dest2">
+                <option>Atlanta</option>
+                <option>Anchorage</option>
+                <option>Austin</option>
+                <option>Baltimore</option>
+                <option>Boston</option>
+                <option>Calgary</option>
+                <option>Charlotte</option>
+                <option>Chicago</option>
+                <option>Cincinnati</option>
+                <option>Cleveland</option>
+                <option>Columbus</option>
+                <option>Dallas</option>
+                <option>Denver</option>
+                <option>Detroit</option>
+                <option>Fort Lauderdale</option>
+                <option>Fort Myers</option>
+                <option>Hartford</option>
+                <option>Indianapolis</option>
+                <option>Kansas City</option>
+                <option>Los Vegas</option>
+                <option>Los Angeles</option>
+                <option>Memphis</option>
+                <option>Miami</option>
+                <option>Minneapolis</option>
+                <option>Montréal</option>
+                <option>Nashville</option>
+                <option>New Orleans</option>
+                <option>New York City</option>
+                <option>Newark</option>
+                <option>Oakland</option>
+                <option>Ontario</option>
+                <option>Orlando</option>
+                <option>Ottawa</option>
+                <option>Philadelphia</option>
+                <option>Phoenix</option>
+                <option>Pittsburgh</option>
+                <option>Portland</option>
+                <option>Québec</option>
+                <option>Raleigh-Durham</option>
+                <option>Sacramento</option>
+                <option>Salt Lake City</option>
+                <option>San Antonio</option>
+                <option>San Diego</option>
+                <option>San Francisco</option>
+                <option>San Jose</option>
+                <option>Santa Ana</option>
+                <option>Seattle</option>
+                <option>St. Louis</option>
+                <option>Tampa</option>
+                <option>Toronto</option>
+                <option>Vancouver</option>
+                <option>Washington D.C.</option>
+            </select>
+        </div>
+        <div class="form-group col-sm-6">
+            <label for="returnIn">Return 2</label>
+            <select class="form-control" id="ret2">
+                <option>Atlanta</option>
+                <option>Anchorage</option>
+                <option>Austin</option>
+                <option>Baltimore</option>
+                <option>Boston</option>
+                <option>Calgary</option>
+                <option>Charlotte</option>
+                <option>Chicago</option>
+                <option>Cincinnati</option>
+                <option>Cleveland</option>
+                <option>Columbus</option>
+                <option>Dallas</option>
+                <option>Denver</option>
+                <option>Detroit</option>
+                <option>Fort Lauderdale</option>
+                <option>Fort Myers</option>
+                <option>Hartford</option>
+                <option>Indianapolis</option>
+                <option>Kansas City</option>
+                <option>Los Vegas</option>
+                <option>Los Angeles</option>
+                <option>Memphis</option>
+                <option>Miami</option>
+                <option>Minneapolis</option>
+                <option>Montréal</option>
+                <option>Nashville</option>
+                <option>New Orleans</option>
+                <option>New York City</option>
+                <option>Newark</option>
+                <option>Oakland</option>
+                <option>Ontario</option>
+                <option>Orlando</option>
+                <option>Ottawa</option>
+                <option>Philadelphia</option>
+                <option>Phoenix</option>
+                <option>Pittsburgh</option>
+                <option>Portland</option>
+                <option>Québec</option>
+                <option>Raleigh-Durham</option>
+                <option>Sacramento</option>
+                <option>Salt Lake City</option>
+                <option>San Antonio</option>
+                <option>San Diego</option>
+                <option>San Francisco</option>
+                <option>San Jose</option>
+                <option>Santa Ana</option>
+                <option>Seattle</option>
+                <option>St. Louis</option>
+                <option>Tampa</option>
+                <option>Toronto</option>
+                <option>Vancouver</option>
+                <option>Washington D.C.</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-sm-6">
+            <label for="destinationIn">Destination 3</label>
+            <select class="form-control" id="dest3">
+                <option>Atlanta</option>
+                <option>Anchorage</option>
+                <option>Austin</option>
+                <option>Baltimore</option>
+                <option>Boston</option>
+                <option>Calgary</option>
+                <option>Charlotte</option>
+                <option>Chicago</option>
+                <option>Cincinnati</option>
+                <option>Cleveland</option>
+                <option>Columbus</option>
+                <option>Dallas</option>
+                <option>Denver</option>
+                <option>Detroit</option>
+                <option>Fort Lauderdale</option>
+                <option>Fort Myers</option>
+                <option>Hartford</option>
+                <option>Indianapolis</option>
+                <option>Kansas City</option>
+                <option>Los Vegas</option>
+                <option>Los Angeles</option>
+                <option>Memphis</option>
+                <option>Miami</option>
+                <option>Minneapolis</option>
+                <option>Montréal</option>
+                <option>Nashville</option>
+                <option>New Orleans</option>
+                <option>New York City</option>
+                <option>Newark</option>
+                <option>Oakland</option>
+                <option>Ontario</option>
+                <option>Orlando</option>
+                <option>Ottawa</option>
+                <option>Philadelphia</option>
+                <option>Phoenix</option>
+                <option>Pittsburgh</option>
+                <option>Portland</option>
+                <option>Québec</option>
+                <option>Raleigh-Durham</option>
+                <option>Sacramento</option>
+                <option>Salt Lake City</option>
+                <option>San Antonio</option>
+                <option>San Diego</option>
+                <option>San Francisco</option>
+                <option>San Jose</option>
+                <option>Santa Ana</option>
+                <option>Seattle</option>
+                <option>St. Louis</option>
+                <option>Tampa</option>
+                <option>Toronto</option>
+                <option>Vancouver</option>
+                <option>Washington D.C.</option>
+            </select>
+        </div>
+        <div class="form-group col-sm-6">
+            <label for="returnIn">Return 3</label>
+            <select class="form-control" id="ret3">
+                <option>Atlanta</option>
+                <option>Anchorage</option>
+                <option>Austin</option>
+                <option>Baltimore</option>
+                <option>Boston</option>
+                <option>Calgary</option>
+                <option>Charlotte</option>
+                <option>Chicago</option>
+                <option>Cincinnati</option>
+                <option>Cleveland</option>
+                <option>Columbus</option>
+                <option>Dallas</option>
+                <option>Denver</option>
+                <option>Detroit</option>
+                <option>Fort Lauderdale</option>
+                <option>Fort Myers</option>
+                <option>Hartford</option>
+                <option>Indianapolis</option>
+                <option>Kansas City</option>
+                <option>Los Vegas</option>
+                <option>Los Angeles</option>
+                <option>Memphis</option>
+                <option>Miami</option>
+                <option>Minneapolis</option>
+                <option>Montréal</option>
+                <option>Nashville</option>
+                <option>New Orleans</option>
+                <option>New York City</option>
+                <option>Newark</option>
+                <option>Oakland</option>
+                <option>Ontario</option>
+                <option>Orlando</option>
+                <option>Ottawa</option>
+                <option>Philadelphia</option>
+                <option>Phoenix</option>
+                <option>Pittsburgh</option>
+                <option>Portland</option>
+                <option>Québec</option>
+                <option>Raleigh-Durham</option>
+                <option>Sacramento</option>
+                <option>Salt Lake City</option>
+                <option>San Antonio</option>
+                <option>San Diego</option>
+                <option>San Francisco</option>
+                <option>San Jose</option>
+                <option>Santa Ana</option>
+                <option>Seattle</option>
+                <option>St. Louis</option>
+                <option>Tampa</option>
+                <option>Toronto</option>
+                <option>Vancouver</option>
+                <option>Washington D.C.</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-sm-6">
+            <label for="destinationIn">Destination 4</label>
+            <select class="form-control" id="dest4">
+                <option>Atlanta</option>
+                <option>Anchorage</option>
+                <option>Austin</option>
+                <option>Baltimore</option>
+                <option>Boston</option>
+                <option>Calgary</option>
+                <option>Charlotte</option>
+                <option>Chicago</option>
+                <option>Cincinnati</option>
+                <option>Cleveland</option>
+                <option>Columbus</option>
+                <option>Dallas</option>
+                <option>Denver</option>
+                <option>Detroit</option>
+                <option>Fort Lauderdale</option>
+                <option>Fort Myers</option>
+                <option>Hartford</option>
+                <option>Indianapolis</option>
+                <option>Kansas City</option>
+                <option>Los Vegas</option>
+                <option>Los Angeles</option>
+                <option>Memphis</option>
+                <option>Miami</option>
+                <option>Minneapolis</option>
+                <option>Montréal</option>
+                <option>Nashville</option>
+                <option>New Orleans</option>
+                <option>New York City</option>
+                <option>Newark</option>
+                <option>Oakland</option>
+                <option>Ontario</option>
+                <option>Orlando</option>
+                <option>Ottawa</option>
+                <option>Philadelphia</option>
+                <option>Phoenix</option>
+                <option>Pittsburgh</option>
+                <option>Portland</option>
+                <option>Québec</option>
+                <option>Raleigh-Durham</option>
+                <option>Sacramento</option>
+                <option>Salt Lake City</option>
+                <option>San Antonio</option>
+                <option>San Diego</option>
+                <option>San Francisco</option>
+                <option>San Jose</option>
+                <option>Santa Ana</option>
+                <option>Seattle</option>
+                <option>St. Louis</option>
+                <option>Tampa</option>
+                <option>Toronto</option>
+                <option>Vancouver</option>
+                <option>Washington D.C.</option>
+            </select>
+        </div>
+        <div class="form-group col-sm-6">
+            <label for="returnIn">Return 4</label>
+            <select class="form-control" id="ret4">
+                <option>Atlanta</option>
+                <option>Anchorage</option>
+                <option>Austin</option>
+                <option>Baltimore</option>
+                <option>Boston</option>
+                <option>Calgary</option>
+                <option>Charlotte</option>
+                <option>Chicago</option>
+                <option>Cincinnati</option>
+                <option>Cleveland</option>
+                <option>Columbus</option>
+                <option>Dallas</option>
+                <option>Denver</option>
+                <option>Detroit</option>
+                <option>Fort Lauderdale</option>
+                <option>Fort Myers</option>
+                <option>Hartford</option>
+                <option>Indianapolis</option>
+                <option>Kansas City</option>
+                <option>Los Vegas</option>
+                <option>Los Angeles</option>
+                <option>Memphis</option>
+                <option>Miami</option>
+                <option>Minneapolis</option>
+                <option>Montréal</option>
+                <option>Nashville</option>
+                <option>New Orleans</option>
+                <option>New York City</option>
+                <option>Newark</option>
+                <option>Oakland</option>
+                <option>Ontario</option>
+                <option>Orlando</option>
+                <option>Ottawa</option>
+                <option>Philadelphia</option>
+                <option>Phoenix</option>
+                <option>Pittsburgh</option>
+                <option>Portland</option>
+                <option>Québec</option>
+                <option>Raleigh-Durham</option>
+                <option>Sacramento</option>
+                <option>Salt Lake City</option>
+                <option>San Antonio</option>
+                <option>San Diego</option>
+                <option>San Francisco</option>
+                <option>San Jose</option>
+                <option>Santa Ana</option>
+                <option>Seattle</option>
+                <option>St. Louis</option>
+                <option>Tampa</option>
+                <option>Toronto</option>
+                <option>Vancouver</option>
+                <option>Washington D.C.</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-sm-6">
+            <label for="destinationIn">Destination 5</label>
+            <select class="form-control" id="dest5">
+                <option>Atlanta</option>
+                <option>Anchorage</option>
+                <option>Austin</option>
+                <option>Baltimore</option>
+                <option>Boston</option>
+                <option>Calgary</option>
+                <option>Charlotte</option>
+                <option>Chicago</option>
+                <option>Cincinnati</option>
+                <option>Cleveland</option>
+                <option>Columbus</option>
+                <option>Dallas</option>
+                <option>Denver</option>
+                <option>Detroit</option>
+                <option>Fort Lauderdale</option>
+                <option>Fort Myers</option>
+                <option>Hartford</option>
+                <option>Indianapolis</option>
+                <option>Kansas City</option>
+                <option>Los Vegas</option>
+                <option>Los Angeles</option>
+                <option>Memphis</option>
+                <option>Miami</option>
+                <option>Minneapolis</option>
+                <option>Montréal</option>
+                <option>Nashville</option>
+                <option>New Orleans</option>
+                <option>New York City</option>
+                <option>Newark</option>
+                <option>Oakland</option>
+                <option>Ontario</option>
+                <option>Orlando</option>
+                <option>Ottawa</option>
+                <option>Philadelphia</option>
+                <option>Phoenix</option>
+                <option>Pittsburgh</option>
+                <option>Portland</option>
+                <option>Québec</option>
+                <option>Raleigh-Durham</option>
+                <option>Sacramento</option>
+                <option>Salt Lake City</option>
+                <option>San Antonio</option>
+                <option>San Diego</option>
+                <option>San Francisco</option>
+                <option>San Jose</option>
+                <option>Santa Ana</option>
+                <option>Seattle</option>
+                <option>St. Louis</option>
+                <option>Tampa</option>
+                <option>Toronto</option>
+                <option>Vancouver</option>
+                <option>Washington D.C.</option>
+            </select>
+        </div>
+        <div class="form-group col-sm-6">
+            <label for="returnIn">Return 5</label>
+            <select class="form-control" id="ret5">
+                <option>Atlanta</option>
+                <option>Anchorage</option>
+                <option>Austin</option>
+                <option>Baltimore</option>
+                <option>Boston</option>
+                <option>Calgary</option>
+                <option>Charlotte</option>
+                <option>Chicago</option>
+                <option>Cincinnati</option>
+                <option>Cleveland</option>
+                <option>Columbus</option>
+                <option>Dallas</option>
+                <option>Denver</option>
+                <option>Detroit</option>
+                <option>Fort Lauderdale</option>
+                <option>Fort Myers</option>
+                <option>Hartford</option>
+                <option>Indianapolis</option>
+                <option>Kansas City</option>
+                <option>Los Vegas</option>
+                <option>Los Angeles</option>
+                <option>Memphis</option>
+                <option>Miami</option>
+                <option>Minneapolis</option>
+                <option>Montréal</option>
+                <option>Nashville</option>
+                <option>New Orleans</option>
+                <option>New York City</option>
+                <option>Newark</option>
+                <option>Oakland</option>
+                <option>Ontario</option>
+                <option>Orlando</option>
+                <option>Ottawa</option>
+                <option>Philadelphia</option>
+                <option>Phoenix</option>
+                <option>Pittsburgh</option>
+                <option>Portland</option>
+                <option>Québec</option>
+                <option>Raleigh-Durham</option>
+                <option>Sacramento</option>
+                <option>Salt Lake City</option>
+                <option>San Antonio</option>
+                <option>San Diego</option>
+                <option>San Francisco</option>
+                <option>San Jose</option>
+                <option>Santa Ana</option>
+                <option>Seattle</option>
+                <option>St. Louis</option>
+                <option>Tampa</option>
+                <option>Toronto</option>
+                <option>Vancouver</option>
+                <option>Washington D.C.</option>
+            </select>
+        </div>
+    </div>
+    <button class="btn btn-primary btn-block">Find Flights</button>
+</form>
 <h1>Your Destinations</h1>
-<div class="card">
-    <div class="card-block">
-        <h4 class="card-title">Destination 1</h4>
-        <button class="btn btn-primary">Book</button>
+<div class="card-columns">
+    <div class="card">
+        <div class="card-block">
+            <h4 class="card-header">Destination 1</h4>
+            <button class="btn btn-primary">Book</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-block">
+            <h4 class="card-header">Destination 2</h4>
+            <button class="btn btn-primary">Book</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-block">
+            <h4 class="card-header">Destination 3</h4>
+            <button class="btn btn-primary">Book</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-block">
+            <h4 class="card-header">Destination 4</h4>
+            <button class="btn btn-primary">Book</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-block">
+            <h4 class="card-header">Destination 5</h4>
+            <button class="btn btn-primary">Book</button>
+        </div>
     </div>
 </div>
-<div class="card">
-    <div class="card-block">
-        <h4 class="card-title">Destination 2</h4>
-        <button class="btn btn-primary">Book</button>
-    </div>
 </div>
-<div class="card">
-    <div class="card-block">
-        <h4 class="card-title">Destination 3</h4>
-        <button class="btn btn-primary">Book</button>
-    </div>
-</div>
-<div class="card">
-    <div class="card-block">
-        <h4 class="card-title">Destination 4</h4>
-        <button class="btn btn-primary">Book</button>
-    </div>
-</div>
-<div class="card">
-    <div class="card-block">
-        <h4 class="card-title">Destination 5</h4>
-        <button class="btn btn-primary">Book</button>
-    </div>
-</div>
-
 </body>
 </html>
