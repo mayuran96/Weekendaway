@@ -1,7 +1,15 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 25px !important;
 }
+
+h1
+{
+  font-family: 'Raleway', sans-serif !important;
+}
+
+
 
 a {
   color: #00B7FF;
