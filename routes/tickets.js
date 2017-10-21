@@ -1,13 +1,13 @@
 var express = require('express');
-var API = require('qpx-express');
 var router = express.Router();
+var API = require('qpx-express');
 
 //map that stores all the different ticket prices
 var map = new Array();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+    res.send('respond with a resource');
 });
 
 router.post('/destinations',function (req, res){
@@ -186,5 +186,5 @@ router.post('/destinations',function (req, res){
 });
 
 
-
 module.exports = router;
+
