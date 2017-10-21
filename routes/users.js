@@ -10,6 +10,11 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
+router.get('/login', function(req, res, next) {
+    res.render('menu', { title: 'Express' });
+});
+
+
 router.post('/destinations',function (req, res){
     var currentDate = new Date();
     currentDate.setDate(currentDate.getDate() + 14);//checks prices for two weeks in advance
