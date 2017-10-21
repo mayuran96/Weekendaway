@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><%= SignUp %></title>
-    <!--<link rel='stylesheet' href='/stylesheets/style.css' />-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
 </head>
 <body>
-<h1>Create an Account</h1>
+<h1>Sign Up</h1>
 <form>
     <div class="form-group">
         <label for="emailIn">Email address</label>
@@ -41,10 +46,10 @@
         <input type="text" class="form-control" id="dest5" placeholder="Enter your fifth destination">
     </div>
     <div class="form-group">
-        <label for="budget">Maximum spend</label>
+        <label for="budget">Budget for all trips (In US dollars)</label>
         <input type="number" class="form-control" id="budget" placeholder="Budget">
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <a href="/signUp/submission"><button type="button" class="btn btn-primary">Submit</button></a>
 </form>
 </body>
 </html>
