@@ -1,7 +1,7 @@
 body {
   padding: 50px;
   font-family: 'Raleway', sans-serif !important;
-  font-size: 25px !important;
+  font-size: 14px !important;
 }
 
 body,html {
@@ -16,6 +16,7 @@ body,html {
 
 h1
 {
+  font-size: 25px !important;
   text-align: center;
   font-family: 'Raleway', sans-serif !important;
 }
@@ -24,9 +25,4 @@ h1
 
 a {
   color: #00B7FF;
-}
-
-.form-group {
-  margin-left: 5px;
-  margin-right: 20px;
 }
